@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <h1>Portfolio Items</h1>
+  </head>
+  <body>
+    <%= @portfolio_items.each do |f| %>
+    <p><%= f.title %></p>
+    <p><%= f.subtitle %></p>
+    <p><%= f.body %></p>
+    <%= image_tag f.thumb_image %>
+    <% end %>
+  </body>
+</html>

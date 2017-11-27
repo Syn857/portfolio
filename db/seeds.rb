@@ -19,8 +19,8 @@ puts "5 skills created"
     title: "Portfolio title: #{portfolio_item}",
     subtitle: "My greate service",
     body: "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
-    main_image: "https://placeholder.com/600x200",
-    thumb_image: "https://placeholder.com/350x200"
+    main_image: "https://placehold.it/600x200",
+    thumb_image: "https://placehold.it/350x200"
   )
 end
 puts "9 portfolios created"
